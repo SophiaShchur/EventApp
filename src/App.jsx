@@ -23,7 +23,7 @@ export default function App() {
 
       <Routes>
         
-        <Route path="/" element={<EventsPage />} />
+        <Route index element={<EventsPage />} />
         <Route path="/events/:id" element={<EventDetailsPage />} />
         <Route path="/add" element={<AddEventPage />} />
       </Routes>
